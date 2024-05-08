@@ -1,0 +1,46 @@
+#######################################
+# Syntax Coloring Map For ESP8266MSC
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+MSC     	KEYWORD1
+MSC_ROLE	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+init	        KEYWORD2
+deInit	        KEYWORD2
+onReceiveEV  	KEYWORD2
+delReceiveEV	KEYWORD2
+onSendEV	    KEYWORD2
+delSendEV	    KEYWORD2
+send	        KEYWORD2
+addPeer	        KEYWORD2
+delPeer     	KEYWORD2
+setRole     	KEYWORD2
+getRole	        KEYWORD2
+setPeerRole  	KEYWORD2
+getPeerRole 	KEYWORD2
+setPeerChannel	KEYWORD2
+getPeerChannel	KEYWORD2
+setPeerKey  	KEYWORD2
+getPeerKey  	KEYWORD2
+fetchPeer   	KEYWORD2
+isPeerExist  	KEYWORD2
+getCntInfo  	KEYWORD2
+setKok      	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+MSC_ROLE_IDLE	LITERAL1
+MSC_ROLE_MASTER	LITERAL1
+MSC_ROLE_SLAVE	LITERAL1
+MSC_ROLE_MULTI	LITERAL1
+MSC_ROLE_MAX	LITERAL1
